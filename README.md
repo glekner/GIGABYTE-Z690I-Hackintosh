@@ -6,6 +6,7 @@ EFI Partition and Guidelines for my Mini-ITX Hackintosh
 
 ## Hardware
 
+- Phanteks Evolv Shift 2 Air
 - Gigabyte Z690I Aorus
 - Intel Core i7-12700K
 - G.Skill TridentZ RGB 2x16GB DDR4-3200CL14
