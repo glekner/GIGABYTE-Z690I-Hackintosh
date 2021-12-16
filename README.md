@@ -28,11 +28,10 @@ EFI Partition and Guidelines for my Mini-ITX Hackintosh
 ## ACPI
 
 1. SSDT-PLUG-ALT.aml
-2. SSDT-GPRW.aml - _GPRW is required for reliable sleep, wake is only triggered by power button_
-3. SSDT-AWAC-DISABLE.aml
-4. SSDT-EC-USBX.aml
-5. SSDT-DMAC.aml
-6. SSDT-DTPG.aml
+2. SSDT-AWAC-DISABLE.aml
+3. SSDT-EC-USBX.aml
+4. SSDT-DMAC.aml
+5. SSDT-DTPG.aml
 
 ## Bios
 
