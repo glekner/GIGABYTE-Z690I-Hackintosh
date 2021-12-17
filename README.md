@@ -4,6 +4,16 @@ EFI Partition and Guidelines for my Mini-ITX Hackintosh
 
 ![About](./assets/about.png)
 
+## Changelog
+
+```
+0.0.2 - replaced all <integer>3</integer> with <integer>255</integer>
+inside USBPorts.kext for USB3. this change fixes insta-wake,
+therefore we can delete GPRW patches
+
+0.0.1 - iniitial release
+```
+
 ## Hardware
 
 - Phanteks Evolv Shift 2 Air
@@ -24,14 +34,6 @@ EFI Partition and Guidelines for my Mini-ITX Hackintosh
 - Scaled for 4K
 - `agdpmod=pikera` is enabled because i'm using an AMD GPU
 - `AudioDxe.efi` is disabled by default for faster boot time
-
-## ACPI
-
-1. SSDT-PLUG-ALT.aml
-2. SSDT-AWAC-DISABLE.aml
-3. SSDT-EC-USBX.aml
-4. SSDT-DMAC.aml
-5. SSDT-DTPG.aml
 
 ## Bios
 
