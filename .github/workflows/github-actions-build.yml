@@ -2,10 +2,12 @@ name: CI
 on: [push]
 jobs:
   validate-config:
-    name: build
+    name: validate-config
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Install xmllint
+        run: sudo apt-get install -y libxml2-utils
       - name: Validate Config.plist
         run: xmllint --noout --dtdvalid validators/plist.dtd EFI/OC/config.plist
