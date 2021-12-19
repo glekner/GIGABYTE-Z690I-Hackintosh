@@ -1,0 +1,11 @@
+name: CI
+on: [push]
+jobs:
+  validate-config:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Validate Config.plist
+        run: xmllint --noout --dtdvalid validators/plist.dtd EFI/OC/config.plist

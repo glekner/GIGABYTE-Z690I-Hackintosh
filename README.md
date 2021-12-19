@@ -11,7 +11,7 @@ EFI Partition and Guidelines for my Mini-ITX Hackintosh
 inside USBPorts.kext for USB3. this change fixes insta-wake,
 therefore we can delete GPRW patches
 
-0.0.1 - iniitial release
+0.0.1 - initial release
 ```
 
 ## Hardware
