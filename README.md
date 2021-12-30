@@ -7,6 +7,9 @@ EFI Partition and Guidelines for my Mini-ITX Hackintosh
 ## Changelog
 
 ```
+0.0.3 - updated OC, removed unused SSDTS, Kexts.
+replaced BCM94352Z with BCM94360NG
+
 0.0.2 - replaced all <integer>3</integer> with <integer>255</integer>
 inside USBPorts.kext for USB3. this change fixes insta-wake,
 therefore we can delete GPRW patches
@@ -25,7 +28,7 @@ therefore we can delete GPRW patches
 - LinkUP PCI-E 4.0 Riser
 - 2xWD Black SN850 1TB NVMe
 - Corsair SF500W
-- BCM94352Z WiFi/BT
+- BCM94360NG WiFi/BT
 
 ## Config
 
@@ -33,7 +36,6 @@ therefore we can delete GPRW patches
 - Verbose Off
 - Scaled for 4K
 - `agdpmod=pikera` is enabled because i'm using an AMD GPU
-- `AudioDxe.efi` is disabled by default for faster boot time
 
 ## Bios
 
