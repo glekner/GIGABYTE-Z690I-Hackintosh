@@ -1,4 +1,4 @@
-# Z690I Aorus OpenCore EFI
+# Gigabyte Z690I Aorus Hackintosh EFI
 
 EFI Partition and Guidelines for my Mini-ITX Hackintosh
 
