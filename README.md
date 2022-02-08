@@ -7,6 +7,8 @@ EFI Partition and Guidelines for my Mini-ITX Hackintosh
 ## Changelog
 
 ```
+0.0.4 - updated to OC 0.7.8 + Latest Kexts. Re Enabled GPRW patches for sleep stability.
+
 0.0.3 - updated OC, removed unused SSDTS, Kexts.
 replaced BCM94352Z with BCM94360NG
 
@@ -35,23 +37,18 @@ therefore we can delete GPRW patches
 - SMBIOS - MacPro7,1
 - Verbose Off
 - Scaled for 4K
-- `agdpmod=pikera` is enabled because i'm using an AMD GPU
+- `agdpmod=pikera` is enabled for AMD GPU
 
 ## Bios
 
-Disabled:
-
-- CFG-Lock
-- Fast Boot
-- VT-d
-- CSM
-
-Enabled:
-
-- VT-x
-- Above 4G decoding
-- Re-Size BAR Support
-- XHCI Hand-off
+- CFG-Lock - off
+- Fast Boot - off
+- VT-d - off
+- CSM - off
+- VT-x - on
+- Above 4G decoding - on
+- Re-Size BAR Support - on
+- XHCI Hand-off - on
 
 ## Overclocking
 
