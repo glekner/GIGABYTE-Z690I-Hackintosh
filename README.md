@@ -7,6 +7,8 @@ EFI Partition and Guidelines for my Mini-ITX Hackintosh
 ## Changelog
 
 ```
+0.0.5 - updated to OC 0.7.9 + Latest Kexts.
+
 0.0.4 - updated to OC 0.7.8 + Latest Kexts. Re Enabled GPRW patches for sleep stability.
 
 0.0.3 - updated OC, removed unused SSDTS, Kexts.
